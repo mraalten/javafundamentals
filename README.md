@@ -27,6 +27,16 @@ After NodeJs is installed you can enter the following command: npm install -g @a
 
 The project consists of 2 modules: java-frontend (in Angular) and java-backend (in Java). To see if all works fine do the following:
 
+## Typescript
+In order to develop front-end applications we will work with typescript, a superset of Javascript.
+To install typescript, enter the following command:
+
+  **npm install -g typescript**
+
+While developing front-end applications (like Angular) it is recommended to use Google Chrome as browser.
+We can use the Chrome Developer Toolkit for building a front-end application and to debug and inspect
+the application.
+
 ####FrontEnd
 Open Terminal or command-line and go the the directory java-frontend.
 Enter the following command: **ng serve**
