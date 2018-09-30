@@ -1,7 +1,7 @@
 package nl.craftsmen.presentation.chapter01.generics.old_way;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.craftsmen.presentation.chapter01.generics.domain.Product;
+import nl.craftsmen.presentation.domain.Product;
 
 @Slf4j
 public class OldProductConverter {
@@ -13,6 +13,6 @@ public class OldProductConverter {
     }
 
     Product convert(String productName) {
-        return new Product(productName);
+        return new Product(productName, 2, 50);
     }
 }

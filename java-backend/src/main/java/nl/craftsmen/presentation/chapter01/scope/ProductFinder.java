@@ -1,6 +1,7 @@
 package nl.craftsmen.presentation.chapter01.scope;
 
 import lombok.extern.slf4j.Slf4j;
+import nl.craftsmen.presentation.domain.Product;
 
 import java.util.List;
 
@@ -13,9 +14,9 @@ public class ProductFinder {
 
     public int find(List<Product> products) {
         for (Product product : products) {
-            if (product.getName() != null) {
+            if (product.productName != null) {
                 counter++;
-                int priceForProduct = product.getQuantity() * price;
+                int priceForProduct = product.quantity * price;
                 totalPrice = totalPrice + priceForProduct;
                 log.info("Price for product is: " + priceForProduct);
                 if (priceForProduct > mostExpensivePrice) {

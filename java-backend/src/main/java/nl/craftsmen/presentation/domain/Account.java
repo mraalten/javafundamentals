@@ -1,4 +1,4 @@
-package nl.craftsmen.presentation.chapter01.generics.domain;
+package nl.craftsmen.presentation.domain;
 
 public class Account {
 

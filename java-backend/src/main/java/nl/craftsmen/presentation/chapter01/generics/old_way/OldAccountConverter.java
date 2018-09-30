@@ -1,7 +1,7 @@
 package nl.craftsmen.presentation.chapter01.generics.old_way;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.craftsmen.presentation.chapter01.generics.domain.Account;
+import nl.craftsmen.presentation.domain.Account;
 
 @Slf4j
 public class OldAccountConverter {
