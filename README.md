@@ -37,7 +37,7 @@ While developing front-end applications (like Angular) it is recommended to use 
 We can use the Chrome Developer Toolkit for building a front-end application and to debug and inspect
 the application.
 
-####FrontEnd
+### FrontEnd
 Open Terminal or command-line and go the the directory java-frontend.
 Enter the following command: **ng serve**
 
