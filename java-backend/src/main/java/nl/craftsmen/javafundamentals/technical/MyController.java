@@ -1,4 +1,4 @@
-package nl.craftsmen.javafundamentals.backend;
+package nl.craftsmen.javafundamentals.technical;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

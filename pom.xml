@@ -17,6 +17,7 @@
 
     <modules>
         <module>java-backend</module>
+        <module>code-examples</module>
     </modules>
 
     <properties>
