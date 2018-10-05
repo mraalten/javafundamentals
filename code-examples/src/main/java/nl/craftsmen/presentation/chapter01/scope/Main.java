@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    private static final ProductFinder PRODUCT_FINDER = new ProductFinder();
 
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
@@ -17,6 +16,6 @@ public class Main {
         products.add(apple);
         products.add(banana);
 
-        PRODUCT_FINDER.find(products);
+        new ProductFinder().find(products);
     }
 }
