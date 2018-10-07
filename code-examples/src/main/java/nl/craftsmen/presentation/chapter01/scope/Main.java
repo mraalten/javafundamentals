@@ -7,6 +7,10 @@ import java.util.List;
 
 public class Main {
 
+    public static String PREFIX = "NL";
+    double price = 2.0;
+    private int sum = 0;
+
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
 
