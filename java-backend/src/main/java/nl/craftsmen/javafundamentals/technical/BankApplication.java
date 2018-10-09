@@ -1,4 +1,4 @@
-package nl.craftsmen.javafundamentals.backend;
+package nl.craftsmen.javafundamentals.technical;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
