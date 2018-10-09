@@ -15,6 +15,7 @@ public class ProductFinder {
     public int find(List<Product> products) {
         for (Product product : products) {
             if (product.productName != null) {
+                int teller = 0;
                 counter++;
                 int priceForProduct = product.quantity * price;
                 totalPrice = totalPrice + priceForProduct;
@@ -22,9 +23,14 @@ public class ProductFinder {
                 if (priceForProduct > mostExpensivePrice) {
                     mostExpensivePrice = priceForProduct;
                 }
+
             }
+
+            log.info("" + mostExpensivePrice);
         }
+
         log.info("Most expensive price is: " + mostExpensivePrice);
         return totalPrice;
     }
+
 }
