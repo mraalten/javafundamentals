@@ -10,5 +10,5 @@ ng generate component <<component-name>>
 
 Create new model:
 ======================================
-ng generate class <<model-name>> model
+ng generate class <<model-name>> --type=model
 
