@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+.center-parent {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-content: center;
+}
+
+.center-child {
+  display: inline-block;
+}
+.rounded-border {
+  border: 2px solid #ccc!important;
+  border-radius: 16px;
+}
+
+.light-blue {
+  background-color: #3ac0ff;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height:40px;
+  font-size: 15px;
+  background-color:#3ac0ff;
+  border-radius: 16px;
+}
+
+.left {
+  float: left;
+}
