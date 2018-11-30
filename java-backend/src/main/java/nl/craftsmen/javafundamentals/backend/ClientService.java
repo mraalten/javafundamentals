@@ -4,7 +4,7 @@ public class ClientService {
 
     public String createClient (Client client){
         String errorMessage = validate(client);
-        if (errorMessage.equals("Geen Fout")) {
+        if (errorMessage.equals("Geen  Fout")) {
             storeClient(client);
         }
         return errorMessage;
