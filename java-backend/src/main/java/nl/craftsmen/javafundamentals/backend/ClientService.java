@@ -5,7 +5,7 @@ public class ClientService {
     public String createClient (Client client){
         String errorMessage = validate(client);
         if (errorMessage.equals("Geen  Fout")) {
-            storeClient(client);
+            //storeClient(client);
         }
         return errorMessage;
     }
@@ -19,6 +19,5 @@ public class ClientService {
         }
         return "Geen Fout";
     }
-
 
 }
