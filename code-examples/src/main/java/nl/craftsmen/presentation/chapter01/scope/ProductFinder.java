@@ -5,7 +5,6 @@ import nl.craftsmen.presentation.domain.Product;
 
 import java.util.List;
 
-@Slf4j
 public class ProductFinder {
     private final int price = 10;
     private int counter = 0;
@@ -19,17 +18,16 @@ public class ProductFinder {
                 counter++;
                 int priceForProduct = product.quantity * price;
                 totalPrice = totalPrice + priceForProduct;
-                log.info("Price for product is: " + priceForProduct);
+
                 if (priceForProduct > mostExpensivePrice) {
                     mostExpensivePrice = priceForProduct;
                 }
 
             }
 
-            log.info("" + mostExpensivePrice);
         }
 
-        log.info("Most expensive price is: " + mostExpensivePrice);
+
         return totalPrice;
     }
 
